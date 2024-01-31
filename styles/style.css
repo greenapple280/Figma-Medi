@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1600px;
+    width: 100%;
+}
+
+a, li {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-top: 37px;
+}
+
+.logo {
+    margin-right: 100px;
+    color: #0A1B32;
+    font-family: 'Ramaraja', serif;;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 160%; /* 48px */
+    letter-spacing: -0.6px;
+}
+
+.menu_list {
+   display: flex; 
+   list-style-type: none;
+}
+
+.menu_item {
+    color: #1B0A42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.menu_item + .menu_item {
+    margin-left: 38px;
+}
+
+.sing-in_btn {
+    margin-left: 752px;
+    color: #1B0A42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    width: 120px; 
+    padding: 18px 31px;
+}
+
+.sing-up_btn {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    padding: 18px 31px;
+    width: 120px;
+    margin-left: 18px;
+    border-radius: 6px;
+    background: #33A2E0;
+}
+
+.main {
+    margin-top: 208px;
+    margin-left: 200px;
+}
+.main-title {
+    max-width: 495px;
+    width: 100%;
+    color: #1B0A42;
+    font-family: Ramaraja;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 76px; /* 105.556% */
+    letter-spacing: 1.44px;
+    margin-bottom: 10px;
+}
+
+section {
+    display: inline-block;
+}
+
+.main-text {
+    max-width: 585px;
+    width: 100%;
+    color: #9A9A9A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+    margin-bottom: 50px;
+}
+
+.main-button {
+    width: 152px;
+    height: 64px;
+    border-radius: 6px;
+    background: #33A2E0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: 0.32px;
+    border: none;
+}
